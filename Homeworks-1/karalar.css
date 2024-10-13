@@ -1,0 +1,47 @@
+/* Ensures that the body fills the entire viewport */
+body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Make the body take up 100% of the viewport height */
+    margin: 0; /* Remove any default margins */
+}
+
+.description {
+    text-align: center; /* Center the text */
+    padding: 20px; /* Optional: Add some padding around the content */
+    border: 1px solid #ccc; /* Optional: Add a border to see the content area */
+}
+
+h1,h2{
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+ p {
+            font-size: 12pt; /* Set font size to 12 points */
+            color: #808080;   /* Set text color to light gray */
+    }
+
+
+/* Style for the image */
+.small-image {
+      width: 150px; /* Adjust size */
+      height: auto; /* Keep aspect ratio */
+      border-radius: 50%; /* Optional: make the image circular */
+}
+
+.link{
+  height: auto; 
+ text-align: center;
+}
+
+.name{
+	 font-weight: bold; /* Makes the text bold */
+     color: blue;
+     font-style: italic;
+}
+
+
+
